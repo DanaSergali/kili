@@ -1,0 +1,6 @@
+# Variant №3
+l = input('Введите слово, сэр: ')
+for i in range(len(l)-1,-1,-1):
+    if l[i] == "з" or l[i] == "я":
+        continue
+    print(l[i])
