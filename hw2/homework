@@ -1,4 +1,4 @@
-# Variant №3
+# Variant №3 (по таблице с оценками)
 l = input('Введите слово, сэр: ')
 for i in range(len(l)-1,-1,-1):
     if l[i] == "з" or l[i] == "я":
