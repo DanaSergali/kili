@@ -1,7 +1,4 @@
-request = str(input('Write a word: '))
-m = -1
-print(request)
-for d in request:
-    result = request[:m]
-    print(result)
-    m -= 1
+slovo = input('Write a word: ')
+
+for m in range(len(slovo)):
+    print(slovo[m:])
