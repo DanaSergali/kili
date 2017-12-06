@@ -1,6 +1,6 @@
  # Variant №6
 with open("text.txt") as f:
-    text = f.read().split(' ')
+    text = f.read().split()
     m = 0
     for d in text:
        if d.istitle():
