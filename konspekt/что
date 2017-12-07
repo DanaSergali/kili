@@ -1,0 +1,11 @@
+
+
+
+def open_file():
+    with open("text.txt") as f:
+    
+
+
+    S.strip()
+    
+    text = f.read().split()
