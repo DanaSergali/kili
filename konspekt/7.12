@@ -1,0 +1,23 @@
+def say_hello(n,m):
+    x = n + m
+    return x
+    
+def say_hello2(n,m):
+    y = n - m
+    return y
+
+def main():
+    n = int(input("напиши пжалста братан а"))
+    m = int(input("еще брат"))
+    x = say_hello(n,m)
+    y = say_hello2(x,m)
+    print(y)
+
+if __name__== "__main__"":
+    main()
+
+
+with open("physics.txt", "w", encoding="utf-8") as f:
+    f.write("При погружении в жидкий кислород фотон искажает разрыв.\n")
+# программа открывает текстовый файл убирает все ненужное и делит все на
+# массивы (на слова отдельные)
