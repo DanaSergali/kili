@@ -1,8 +1,0 @@
-with open ("Ozhegov.txt", encoding="utf-8") as f:
-    text = f.read()
-    lines = text.split('\n')
-    for line in lines:
-        words = line.split()
-        for word in words:
-            if len(words[0]) >= 20:
-                print(line)

@@ -1,0 +1,15 @@
+with open ("Ozhegov.txt", encoding="utf-8") as f:
+    lines = f.readlines()
+    for line in lines:
+        word = line.split()
+        if len(word[0]) >= 20:
+                print(line)
+                ======================================================
+with open ("Ozhegov.txt", encoding="utf-8") as f:
+    text = f.read()
+    lines = text.split('\n')
+    for line in lines:
+        words = line.split()
+        for word in words:
+            if len(words[0]) >= 20:
+                print(line)
