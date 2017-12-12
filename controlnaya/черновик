@@ -1,0 +1,27 @@
+with open ("Ozhegov.txt", encoding="utf-8") as f:
+    text = f.read()
+    lines = text.split('\n')
+    for line in lines:
+        parts = line.split("|" )
+        words = parts[0].split()
+        for word in words:
+            if len(words[0]) >= 20:
+                print(line)
+        
+
+    
+        # if len(word = int(word))
+
+
+#totalwords = len(text.split())
+#if totalwords <= 20:
+
+
+  
+with open("Ozhegov.txt", encoding="utf-8") as f:
+    lines = f.readlines()
+    for line in lines:
+        cells = line.split()
+        if len(cells[0]) >= 20:
+             print(line)
+             print(len(word = int(word)))
