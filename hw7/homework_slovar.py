@@ -7,7 +7,6 @@ def read(txt):
         for symbol in symbols:
             text=text.replace(symbol,"")
             text=text.replace("'"," ")
-            text=text.lower()
             words=text.split()
         return words
 
