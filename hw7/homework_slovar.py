@@ -1,5 +1,5 @@
 print("Приставки OMNI: ")
-#чтение файла    
+#чтение файла, убираем лишние символы   
 def read(txt):
     symbols='!?().,"^"=-'
     with open(txt, encoding="utf-8") as f:
