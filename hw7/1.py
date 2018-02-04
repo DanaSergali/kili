@@ -32,7 +32,7 @@ def count_without_omnis(text):
                 
             
 
-filename=input("Введите имя файла с текстом (без расширения): ")
+filename=input("Введите имя файла: ")
 open_file=open_file(filename)
 count_omnis=count_omnis(open_file)
 count_without_omnis=count_without_omnis(open_file)
