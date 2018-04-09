@@ -26,7 +26,7 @@ def lines_all(file):
       
 
 def main():
-  freq=lines_all(read_file('Iceland.xml'))
+  lines_all(read_file('Iceland.xml'))
   print("Ответ записан.")
 
 main()
