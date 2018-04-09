@@ -1,12 +1,13 @@
 #по-человечески написала, вариант легче
+
 #исправилась после 10 домашки и абсолютно все запихала в функции
 import re
-def get_text():
+def read_file():
     with open('iceland.xml',"r", encoding='utf-8') as f:
         file=f.read()
     return file
 
-def matches(text):
+def writefile(text):
     c=re.match(r'.*</teiHeader>',text, re.DOTALL)
     return c
 
@@ -23,7 +24,7 @@ def write(i):
 
 
 def main():
-    c=matches(get_text()).group()
+    c=writefile(read_file()).group()
     i=str(lines_all(c))
     write(i)
 
